@@ -7,10 +7,6 @@
     <link rel="stylesheet" id="mystylesheet" href=darkmode.css />
     <h1 id=title>All About Motion and Forces in One Dimension</h1>
 
-<body>
-    <button class="btn btn-light" id="submit1"onclick="swapStyle('lightmode.css')">Light Mode</button>
-    <button class="btn btn-dark" id="submit2" onclick="swapStyle('darkmode.css')">Dark Mode</button>
-
     <script type="text/javascript">
 
         var setTheme = localStorage.getItem('theme')
@@ -25,6 +21,11 @@
             localStorage.setItem('theme', sheet)
         }
     </script>
+</head>
+<body>
+    <button class="btn btn-light" id="submit1"onclick="swapStyle('lightmode.css')">Light Mode</button>
+    <button class="btn btn-dark" id="submit2" onclick="swapStyle('darkmode.css')">Dark Mode</button>
+
     <h2 id="about_velocity_and_acceleration">About Velocity and Acceleration:</h2>
     <!--Links are included throughout some of these paragraphs. They open in another page-->
     <img src="https://assets.ltkcontent.com/images/6490/difference-velocity-acceleration_0066f46bde.jpg"
