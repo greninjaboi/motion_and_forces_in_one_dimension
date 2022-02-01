@@ -1,0 +1,48 @@
+.spoiler {
+    color: rgb(100, 0, 255);
+    background-color: rgb(100, 0, 255);
+}
+.spoiler:hover {
+    background-color: black;
+}
+.btn-dark {
+display: none;
+}
+#submit1{
+    background-color: black;
+    color: rgba(255, 255, 255, 0.5);
+    border-radius: 15px
+}
+#submit1:hover {
+color: yellow;
+box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+}
+body {
+    background-color: black;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+h1 {
+    color: rgba(100, 0, 255);
+}
+h2 {
+    font-family: Sans-serif, Serif;
+    color: rgba(0, 140, 255, 0.6);
+}
+
+p {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+table {
+    color: rgb(100, 0, 255);
+}
+
+ol {
+    color: rgb(100, 0, 255);
+}
+
+ul {
+    color: rgb(100, 0, 255);
+}
